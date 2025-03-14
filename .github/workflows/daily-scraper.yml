@@ -8,13 +8,15 @@ on:
       - master
   # Keep the schedule for later
   schedule:
-    - cron: '* * * * *'
+    - cron: '15 6 * * *'  # 12:00 PM Nepal time (6:15 AM UTC)
   workflow_dispatch:  # Allow manual triggering
 
 # Adding this comment to trigger a commit and potentially activate the repository
 jobs:
   scrape-and-commit:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     
     steps:
       - name: Checkout repository
@@ -40,12 +42,17 @@ jobs:
         id: date
         run: echo "date=$(date +'%Y-%m-%d %H:%M:%S')" >> $GITHUB_OUTPUT
           
-      - name: Commit and push if there are changes
+      - name: Create workflow log
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add data/
           echo "Workflow ran at: ${{ steps.date.outputs.date }}" > workflow_log.txt
-          git add workflow_log.txt
-          git commit -m "Update market data: ${{ steps.date.outputs.date }}"
-          git push 
+          
+      - name: Commit and push if there are changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "Update market data: ${{ steps.date.outputs.date }}"
+          file_pattern: 'data/* workflow_log.txt'
+          commit_options: '--no-verify'
+          commit_user_name: GitHub Actions
+          commit_user_email: actions@github.com
+          commit_author: GitHub Actions <actions@github.com>
+          create_branch: false 
