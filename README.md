@@ -16,6 +16,7 @@ A Python script to scrape commodity price data from the [Kalimati Market website
 - Includes fallback mechanisms to find the table if the ID changes
 - Containerized with Docker for easy deployment and isolation
 - Automated daily runs with GitHub Actions at 12:00 PM Nepal time
+- Logs execution time in Nepal time zone with AM/PM format
 
 ## Requirements
 
@@ -84,6 +85,7 @@ This repository includes a GitHub Actions workflow that automatically:
 1. Runs the scraper daily at 12:00 PM Nepal time (6:15 AM UTC)
 2. Commits any new data files to the repository
 3. Pushes the changes to GitHub
+4. Creates a workflow log with timestamp in Nepal time (12-hour format with AM/PM)
 
 To use this feature:
 
@@ -211,18 +213,18 @@ Example of editing the mapping file:
 ## Scheduling the Scraper
 
 ### Using GitHub Actions (Recommended)
-The included GitHub Actions workflow will run the scraper daily at 12:00 PM Nepal time and commit the results.
+The included GitHub Actions workflow will run the scraper daily at 12:00 PM Nepal time (6:15 AM UTC) and commit the results with timestamps in Nepal time.
 
 ### Using cron with Docker:
 ```bash
-# Add to crontab (run every day at 8 AM)
-0 8 * * * cd /path/to/kalimati-scraper && ./run.sh
+# Add to crontab (run every day at 12:00 PM Nepal time)
+15 6 * * * cd /path/to/kalimati-scraper && ./run.sh
 ```
 
 ### Using cron with Python directly:
 ```bash
-# Add to crontab (run every day at 8 AM)
-0 8 * * * cd /path/to/kalimati-scraper && python kalimati_scraper.py
+# Add to crontab (run every day at 12:00 PM Nepal time)
+15 6 * * * cd /path/to/kalimati-scraper && python kalimati_scraper.py
 ```
 
 ## License
