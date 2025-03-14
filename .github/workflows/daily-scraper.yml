@@ -2,8 +2,9 @@ name: Daily Kalimati Market Scraper
 
 on:
   schedule:
-    # Run at 6:15 AM UTC (12:00 PM Nepal Time, NPT is UTC+5:45)
-    - cron: '15 6 * * *'
+    # Run every 5 minutes for testing (*/5 * * * *)
+    # Original schedule: Run at 6:15 AM UTC (12:00 PM Nepal Time, NPT is UTC+5:45) - 15 6 * * *
+    - cron: '*/5 * * * *'
   workflow_dispatch:  # Allow manual triggering
 
 jobs:
