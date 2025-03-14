@@ -1,10 +1,14 @@
 name: Daily Kalimati Market Scraper
 
 on:
+  # Run on each push to the repository
+  push:
+    branches:
+      - main
+      - master
+  # Keep the schedule for later
   schedule:
-    # Run every 5 minutes for testing (*/5 * * * *)
-    # Original schedule: Run at 6:15 AM UTC (12:00 PM Nepal Time, NPT is UTC+5:45) - 15 6 * * *
-    - cron: '*/5 * * * *'
+    - cron: '* * * * *'
   workflow_dispatch:  # Allow manual triggering
 
 # Adding this comment to trigger a commit and potentially activate the repository
@@ -34,12 +38,14 @@ jobs:
           
       - name: Get current date
         id: date
-        run: echo "date=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
+        run: echo "date=$(date +'%Y-%m-%d %H:%M:%S')" >> $GITHUB_OUTPUT
           
       - name: Commit and push if there are changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add data/
-          git diff --quiet && git diff --staged --quiet || git commit -m "Update market data: ${{ steps.date.outputs.date }}"
+          echo "Workflow ran at: ${{ steps.date.outputs.date }}" > workflow_log.txt
+          git add workflow_log.txt
+          git commit -m "Update market data: ${{ steps.date.outputs.date }}"
           git push 
