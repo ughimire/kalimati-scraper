@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  scraper:
+    build: .
+    container_name: kalimati-scraper
+    volumes:
+      - ./data:/app/data
+    restart: on-failure
+    environment:
+      - TZ=Asia/Kathmandu
