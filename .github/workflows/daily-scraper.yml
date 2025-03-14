@@ -1,9 +1,9 @@
 name: Daily Kalimati Market Scraper
 
 on:
-  # Run at 6:40 PM Nepal time (12:55 PM UTC)
+  # Run at 12:00 PM Nepal time (6:15 AM UTC)
   schedule:
-    - cron: '55 12 * * *'
+    - cron: '15 6 * * *'
   workflow_dispatch:  # Allow manual triggering
 
 # Adding this comment to trigger a commit and potentially activate the repository
@@ -33,18 +33,21 @@ jobs:
         run: |
           python kalimati_scraper.py
           
-      - name: Get current date
+      - name: Get current date in Nepal time with AM/PM
         id: date
-        run: echo "date=$(date +'%Y-%m-%d %H:%M:%S')" >> $GITHUB_OUTPUT
+        run: |
+          # Calculate Nepal time using Python (UTC+5:45) with AM/PM format
+          NEPAL_TIME=$(python -c "import datetime; import time; print((datetime.datetime.utcnow() + datetime.timedelta(hours=5, minutes=45)).strftime('%Y-%m-%d %I:%M:%S %p'))")
+          echo "date=$NEPAL_TIME" >> $GITHUB_OUTPUT
           
       - name: Create workflow log
         run: |
-          echo "Workflow ran at: ${{ steps.date.outputs.date }}" > workflow_log.txt
+          echo "Workflow ran at: ${{ steps.date.outputs.date }} (Nepal Time)" > workflow_log.txt
           
       - name: Commit and push if there are changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: "Update market data: ${{ steps.date.outputs.date }}"
+          commit_message: "Update market data: ${{ steps.date.outputs.date }} (Nepal Time)"
           file_pattern: 'data/* workflow_log.txt'
           commit_options: '--no-verify'
           commit_user_name: GitHub Actions
