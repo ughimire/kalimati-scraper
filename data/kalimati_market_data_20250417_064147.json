@@ -1,0 +1,1122 @@
+[
+    {
+        "nepali_name": "गोलभेडा ठूलो(नेपाली)",
+        "english_name": "Tomato Large (Nepali)",
+        "minimum": 30.0,
+        "maximum": 40.0,
+        "average": 35.0,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "गोलभेडा ठूलो(भारतीय)",
+        "english_name": "Tomato Large (Indian)",
+        "minimum": 40.0,
+        "maximum": 50.0,
+        "average": 45.0,
+        "unit_type": "kg",
+        "unit_nepali": "केजी",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "गोलभेडा सानो(लोकल)",
+        "english_name": "",
+        "minimum": 20.0,
+        "maximum": 25.0,
+        "average": 22.67,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "गोलभेडा सानो(तराई)",
+        "english_name": "Tomato Small (Terai)",
+        "minimum": 20.0,
+        "maximum": 25.0,
+        "average": 22.67,
+        "unit_type": "kg",
+        "unit_nepali": "के जी",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "आलु रातो",
+        "english_name": "Potato Red",
+        "minimum": 30.0,
+        "maximum": 35.0,
+        "average": 32.67,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "आलु रातो(भारतीय)",
+        "english_name": "Potato Red (Indian)",
+        "minimum": 35.0,
+        "maximum": 40.0,
+        "average": 37.67,
+        "unit_type": "kg",
+        "unit_nepali": "के जी",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "प्याज सुकेको (भारतीय)",
+        "english_name": "Onion Dry (Indian)",
+        "minimum": 38.0,
+        "maximum": 40.0,
+        "average": 39.0,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "गाजर(लोकल)",
+        "english_name": "Carrot (Local)",
+        "minimum": 30.0,
+        "maximum": 40.0,
+        "average": 35.0,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "गाजर(तराई)",
+        "english_name": "Carrot (Terai)",
+        "minimum": 20.0,
+        "maximum": 30.0,
+        "average": 25.0,
+        "unit_type": "kg",
+        "unit_nepali": "केजी",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "बन्दा(लोकल)",
+        "english_name": "Cabbage (Local)",
+        "minimum": 10.0,
+        "maximum": 15.0,
+        "average": 12.33,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "बन्दा(तराई)",
+        "english_name": "",
+        "minimum": 8.0,
+        "maximum": 12.0,
+        "average": 10.0,
+        "unit_type": "kg",
+        "unit_nepali": "केजी",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "बन्दा(नरिवल)",
+        "english_name": "",
+        "minimum": 15.0,
+        "maximum": 25.0,
+        "average": 20.0,
+        "unit_type": "kg",
+        "unit_nepali": "केजी",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "काउली स्थानिय",
+        "english_name": "Cauliflower Local",
+        "minimum": 20.0,
+        "maximum": 25.0,
+        "average": 22.33,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "स्थानीय काउली(ज्यापु)",
+        "english_name": "",
+        "minimum": 20.0,
+        "maximum": 25.0,
+        "average": 22.67,
+        "unit_type": "kg",
+        "unit_nepali": "केजी",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "मूला रातो",
+        "english_name": "",
+        "minimum": 35.0,
+        "maximum": 45.0,
+        "average": 40.0,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "मूला सेतो(लोकल)",
+        "english_name": "",
+        "minimum": 10.0,
+        "maximum": 20.0,
+        "average": 15.0,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "सेतो मूला(हाइब्रीड)",
+        "english_name": "",
+        "minimum": 15.0,
+        "maximum": 25.0,
+        "average": 20.0,
+        "unit_type": "kg",
+        "unit_nepali": "केजी",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "भन्टा लाम्चो",
+        "english_name": "",
+        "minimum": 20.0,
+        "maximum": 40.0,
+        "average": 30.0,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "भन्टा डल्लो",
+        "english_name": "",
+        "minimum": 30.0,
+        "maximum": 40.0,
+        "average": 35.0,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "बोडी(तने)",
+        "english_name": "",
+        "minimum": 60.0,
+        "maximum": 80.0,
+        "average": 70.0,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "मटरकोशा",
+        "english_name": "",
+        "minimum": 80.0,
+        "maximum": 90.0,
+        "average": 85.0,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "घिउ सिमी(लोकल)",
+        "english_name": "",
+        "minimum": 80.0,
+        "maximum": 90.0,
+        "average": 85.0,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "घिउ सिमी(हाइब्रीड)",
+        "english_name": "",
+        "minimum": 80.0,
+        "maximum": 90.0,
+        "average": 85.0,
+        "unit_type": "kg",
+        "unit_nepali": "केजी",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "घिउ सिमी(राजमा)",
+        "english_name": "",
+        "minimum": 70.0,
+        "maximum": 80.0,
+        "average": 75.0,
+        "unit_type": "kg",
+        "unit_nepali": "केजी",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "टाटे सिमी",
+        "english_name": "",
+        "minimum": 80.0,
+        "maximum": 90.0,
+        "average": 85.0,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "तितो करेला",
+        "english_name": "",
+        "minimum": 40.0,
+        "maximum": 50.0,
+        "average": 45.0,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "लौका",
+        "english_name": "",
+        "minimum": 30.0,
+        "maximum": 40.0,
+        "average": 35.0,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "परवर(लोकल)",
+        "english_name": "",
+        "minimum": 80.0,
+        "maximum": 90.0,
+        "average": 85.0,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "परवर(तराई)",
+        "english_name": "",
+        "minimum": 80.0,
+        "maximum": 90.0,
+        "average": 85.0,
+        "unit_type": "kg",
+        "unit_nepali": "केजी",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "चिचिण्डो",
+        "english_name": "",
+        "minimum": 60.0,
+        "maximum": 70.0,
+        "average": 65.0,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "घिरौला",
+        "english_name": "",
+        "minimum": 50.0,
+        "maximum": 60.0,
+        "average": 55.0,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "झिगूनी",
+        "english_name": "",
+        "minimum": 60.0,
+        "maximum": 70.0,
+        "average": 65.0,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "फर्सी पाकेको",
+        "english_name": "",
+        "minimum": 40.0,
+        "maximum": 50.0,
+        "average": 45.0,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "फर्सी हरियो(लाम्चो)",
+        "english_name": "",
+        "minimum": 30.0,
+        "maximum": 40.0,
+        "average": 35.0,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "हरियो फर्सी(डल्लो)",
+        "english_name": "",
+        "minimum": 30.0,
+        "maximum": 40.0,
+        "average": 35.0,
+        "unit_type": "kg",
+        "unit_nepali": "केजी",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "सलगम",
+        "english_name": "",
+        "minimum": 60.0,
+        "maximum": 70.0,
+        "average": 65.0,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "भिण्डी",
+        "english_name": "",
+        "minimum": 80.0,
+        "maximum": 90.0,
+        "average": 85.0,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "सखरखण्ड",
+        "english_name": "",
+        "minimum": 60.0,
+        "maximum": 70.0,
+        "average": 65.0,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "बरेला",
+        "english_name": "",
+        "minimum": 40.0,
+        "maximum": 60.0,
+        "average": 50.0,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "पिंडालू",
+        "english_name": "",
+        "minimum": 80.0,
+        "maximum": 90.0,
+        "average": 85.0,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "स्कूस",
+        "english_name": "",
+        "minimum": 50.0,
+        "maximum": 60.0,
+        "average": 55.0,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "रायो साग",
+        "english_name": "",
+        "minimum": 50.0,
+        "maximum": 70.0,
+        "average": 60.0,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "पालूगो साग",
+        "english_name": "",
+        "minimum": 70.0,
+        "maximum": 80.0,
+        "average": 75.0,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "चमसूरको साग",
+        "english_name": "",
+        "minimum": 90.0,
+        "maximum": 100.0,
+        "average": 95.0,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "तोरीको साग",
+        "english_name": "",
+        "minimum": 30.0,
+        "maximum": 40.0,
+        "average": 35.0,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "मेथीको साग",
+        "english_name": "",
+        "minimum": 80.0,
+        "maximum": 90.0,
+        "average": 85.0,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "प्याज हरियो",
+        "english_name": "",
+        "minimum": 30.0,
+        "maximum": 40.0,
+        "average": 35.0,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "बकूला",
+        "english_name": "",
+        "minimum": 40.0,
+        "maximum": 50.0,
+        "average": 45.0,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "तरुल",
+        "english_name": "",
+        "minimum": 90.0,
+        "maximum": 100.0,
+        "average": 95.0,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "च्याउ(कन्य)",
+        "english_name": "Mushroom (Button)",
+        "minimum": 140.0,
+        "maximum": 170.0,
+        "average": 156.67,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "च्याउ(डल्ले)",
+        "english_name": "Mushroom (Oyster)",
+        "minimum": 300.0,
+        "maximum": 350.0,
+        "average": 326.67,
+        "unit_type": "kg",
+        "unit_nepali": "के जी",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "कुरीलो",
+        "english_name": "",
+        "minimum": 300.0,
+        "maximum": 600.0,
+        "average": 466.67,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "न्यूरो",
+        "english_name": "",
+        "minimum": 70.0,
+        "maximum": 80.0,
+        "average": 75.0,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "ब्रोकाउली",
+        "english_name": "",
+        "minimum": 30.0,
+        "maximum": 40.0,
+        "average": 35.0,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "चुकुन्दर",
+        "english_name": "",
+        "minimum": 50.0,
+        "maximum": 60.0,
+        "average": 55.0,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "सजिवन",
+        "english_name": "",
+        "minimum": 150.0,
+        "maximum": 180.0,
+        "average": 166.67,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "कोइरालो",
+        "english_name": "",
+        "minimum": 200.0,
+        "maximum": 220.0,
+        "average": 210.0,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "रातो बन्दा",
+        "english_name": "",
+        "minimum": 50.0,
+        "maximum": 65.0,
+        "average": 56.67,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "जिरीको साग",
+        "english_name": "Jiri Leafy Greens",
+        "minimum": 55.0,
+        "maximum": 65.0,
+        "average": 60.0,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "ग्याठ कोबी",
+        "english_name": "",
+        "minimum": 55.0,
+        "maximum": 65.0,
+        "average": 60.0,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "सेलरी",
+        "english_name": "",
+        "minimum": 100.0,
+        "maximum": 200.0,
+        "average": 150.0,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "पार्सले",
+        "english_name": "",
+        "minimum": 250.0,
+        "maximum": 300.0,
+        "average": 276.67,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "सौफको साग",
+        "english_name": "",
+        "minimum": 80.0,
+        "maximum": 90.0,
+        "average": 85.0,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "पुदीना",
+        "english_name": "",
+        "minimum": 250.0,
+        "maximum": 350.0,
+        "average": 300.0,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "गान्टे मूला",
+        "english_name": "",
+        "minimum": 50.0,
+        "maximum": 60.0,
+        "average": 55.0,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "इमली",
+        "english_name": "Tamarind",
+        "minimum": 160.0,
+        "maximum": 170.0,
+        "average": 165.0,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "तामा",
+        "english_name": "",
+        "minimum": 90.0,
+        "maximum": 100.0,
+        "average": 95.0,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "तोफु",
+        "english_name": "",
+        "minimum": 110.0,
+        "maximum": 120.0,
+        "average": 115.0,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "गुन्दुक",
+        "english_name": "",
+        "minimum": 300.0,
+        "maximum": 350.0,
+        "average": 326.67,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "स्याउ(झोले)",
+        "english_name": "",
+        "minimum": 230.0,
+        "maximum": 250.0,
+        "average": 240.0,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "स्याउ(फूजी)",
+        "english_name": "Apple (Fuji)",
+        "minimum": 300.0,
+        "maximum": 350.0,
+        "average": 326.67,
+        "unit_type": "kg",
+        "unit_nepali": "के जी",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "केरा",
+        "english_name": "Banana",
+        "minimum": 140.0,
+        "maximum": 160.0,
+        "average": 150.0,
+        "unit_type": "dozen",
+        "unit_nepali": "दर्जन",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "कागती",
+        "english_name": "Lime",
+        "minimum": 270.0,
+        "maximum": 280.0,
+        "average": 275.0,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "अनार",
+        "english_name": "Pomegranate",
+        "minimum": 300.0,
+        "maximum": 350.0,
+        "average": 326.67,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "अंगुर(हरियो)",
+        "english_name": "Grapes (Green)",
+        "minimum": 180.0,
+        "maximum": 200.0,
+        "average": 190.0,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "अंगुर(कालो)",
+        "english_name": "Grapes (Black)",
+        "minimum": 230.0,
+        "maximum": 250.0,
+        "average": 240.0,
+        "unit_type": "kg",
+        "unit_nepali": "केजी",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "सुन्तला(भारतीय)",
+        "english_name": "",
+        "minimum": 120.0,
+        "maximum": 150.0,
+        "average": 133.33,
+        "unit_type": "kg",
+        "unit_nepali": "केजी",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "तरबुजा(हरियो)",
+        "english_name": "",
+        "minimum": 60.0,
+        "maximum": 70.0,
+        "average": 65.0,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "मौसम",
+        "english_name": "",
+        "minimum": 180.0,
+        "maximum": 200.0,
+        "average": 190.0,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "जुनार",
+        "english_name": "",
+        "minimum": 180.0,
+        "maximum": 200.0,
+        "average": 190.0,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "भुई कटहर",
+        "english_name": "",
+        "minimum": 180.0,
+        "maximum": 200.0,
+        "average": 190.0,
+        "unit_type": "pcs",
+        "unit_nepali": "प्रति गोटा",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "काक्रो(लोकल)",
+        "english_name": "",
+        "minimum": 90.0,
+        "maximum": 100.0,
+        "average": 95.0,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "काक्रो(हाइब्रीड)",
+        "english_name": "",
+        "minimum": 25.0,
+        "maximum": 30.0,
+        "average": 27.67,
+        "unit_type": "kg",
+        "unit_nepali": "के जी",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "रुख कटहर",
+        "english_name": "",
+        "minimum": 90.0,
+        "maximum": 100.0,
+        "average": 95.0,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "निबुवा",
+        "english_name": "",
+        "minimum": 40.0,
+        "maximum": 50.0,
+        "average": 45.0,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "नासपाती(चाइनिज)",
+        "english_name": "",
+        "minimum": 240.0,
+        "maximum": 260.0,
+        "average": 250.0,
+        "unit_type": "kg",
+        "unit_nepali": "केजी",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "मेवा(नेपाली)",
+        "english_name": "",
+        "minimum": 40.0,
+        "maximum": 50.0,
+        "average": 45.0,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "मेवा(भारतीय)",
+        "english_name": "",
+        "minimum": 100.0,
+        "maximum": 120.0,
+        "average": 110.0,
+        "unit_type": "kg",
+        "unit_nepali": "केजी",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "अम्बा",
+        "english_name": "",
+        "minimum": 100.0,
+        "maximum": 120.0,
+        "average": 110.0,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "लप्सी",
+        "english_name": "",
+        "minimum": 80.0,
+        "maximum": 90.0,
+        "average": 85.0,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "उखु",
+        "english_name": "",
+        "minimum": 80.0,
+        "maximum": 100.0,
+        "average": 90.0,
+        "unit_type": "kg",
+        "unit_nepali": "प्रति वटा",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "स्ट्रबेरी भुईऐसेलु",
+        "english_name": "",
+        "minimum": 200.0,
+        "maximum": 250.0,
+        "average": 226.67,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "किवि",
+        "english_name": "",
+        "minimum": 400.0,
+        "maximum": 450.0,
+        "average": 426.67,
+        "unit_type": "kg",
+        "unit_nepali": "केजी",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "आभोकाडो",
+        "english_name": "",
+        "minimum": 600.0,
+        "maximum": 650.0,
+        "average": 626.67,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "अमला",
+        "english_name": "Amla",
+        "minimum": 100.0,
+        "maximum": 120.0,
+        "average": 110.0,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "अदुवा",
+        "english_name": "Ginger",
+        "minimum": 110.0,
+        "maximum": 130.0,
+        "average": 120.0,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "खु्र्सानी सुकेको",
+        "english_name": "",
+        "minimum": 300.0,
+        "maximum": 420.0,
+        "average": 367.5,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "खु्र्सानी हरियो",
+        "english_name": "",
+        "minimum": 60.0,
+        "maximum": 70.0,
+        "average": 65.0,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "खुर्सानी हरियो(बुलेट)",
+        "english_name": "",
+        "minimum": 50.0,
+        "maximum": 60.0,
+        "average": 55.0,
+        "unit_type": "kg",
+        "unit_nepali": "के जी",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "खुर्सानी हरियो(माछे)",
+        "english_name": "",
+        "minimum": 50.0,
+        "maximum": 80.0,
+        "average": 66.67,
+        "unit_type": "kg",
+        "unit_nepali": "के जी",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "खुर्सानी हरियो(अकबरे)",
+        "english_name": "",
+        "minimum": 200.0,
+        "maximum": 300.0,
+        "average": 250.0,
+        "unit_type": "kg",
+        "unit_nepali": "के जी",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "भेडे खु्र्सानी",
+        "english_name": "",
+        "minimum": 120.0,
+        "maximum": 130.0,
+        "average": 125.0,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "लसुन हरियो",
+        "english_name": "",
+        "minimum": 70.0,
+        "maximum": 80.0,
+        "average": 75.0,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "हरियो धनिया",
+        "english_name": "",
+        "minimum": 150.0,
+        "maximum": 180.0,
+        "average": 166.67,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "लसुन सुकेको चाइनिज",
+        "english_name": "",
+        "minimum": 300.0,
+        "maximum": 320.0,
+        "average": 310.0,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "लसुन सुकेको नेपाली",
+        "english_name": "",
+        "minimum": 280.0,
+        "maximum": 300.0,
+        "average": 290.0,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "ताजा माछा(रहु)",
+        "english_name": "",
+        "minimum": 300.0,
+        "maximum": 320.0,
+        "average": 310.0,
+        "unit_type": "kg",
+        "unit_nepali": "के जी",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "ताजा माछा(बचुवा)",
+        "english_name": "",
+        "minimum": 240.0,
+        "maximum": 260.0,
+        "average": 250.0,
+        "unit_type": "kg",
+        "unit_nepali": "के जी",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "ताजा माछा(छडी)",
+        "english_name": "",
+        "minimum": 220.0,
+        "maximum": 240.0,
+        "average": 230.0,
+        "unit_type": "kg",
+        "unit_nepali": "के जी",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "रुख टमाटर",
+        "english_name": "",
+        "minimum": 120.0,
+        "maximum": 140.0,
+        "average": 130.0,
+        "unit_type": "kg",
+        "unit_nepali": "केजी",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "राजा च्याउ",
+        "english_name": "",
+        "minimum": 280.0,
+        "maximum": 300.0,
+        "average": 290.0,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    },
+    {
+        "nepali_name": "सिताके च्याउ",
+        "english_name": "Shiitake Mushroom",
+        "minimum": 700.0,
+        "maximum": 800.0,
+        "average": 750.0,
+        "unit_type": "kg",
+        "unit_nepali": "के.जी.",
+        "currency": "npr"
+    }
+]
