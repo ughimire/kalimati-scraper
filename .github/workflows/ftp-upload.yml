@@ -2,8 +2,8 @@ name: Upload data to FTP
 
 on:
   push:
-    paths:
-      - 'data/**'
+    branches:
+      - master
 
 jobs:
   ftp-deploy:
