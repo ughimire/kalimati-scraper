@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Kalimati Market Scraper Runner
+#Kalimati Market Scraper Runner
 # This script builds and runs the Kalimati Market scraper using Docker
 
 # Set script to exit on error
