@@ -1,9 +1,10 @@
 name: Upload data to FTP
 
 on:
-  push:
-    branches:
-      - master
+  workflow_run:
+    workflows: ["Daily Kalimati Market Scraper"]
+    types:
+      - completed
 
 jobs:
   ftp-deploy:
